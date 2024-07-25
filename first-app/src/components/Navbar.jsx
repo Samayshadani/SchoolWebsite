@@ -1,38 +1,41 @@
+// src/components/Navbar.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Navbar.css'; // Ensure you import your custom CSS file
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">Springdale Public School</a>
+    <nav className="navbar navbar-expand-lg custom-navbar">
+      <NavLink className="navbar-brand" to="/">Springdale Public School</NavLink>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <Link className="nav-link" to="/">Home</Link>
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/" end>Home</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about-us">About Us</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/about-us">About Us</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/academics">Academics</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/academics">Academics</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/admissions">Admissions</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/admissions">Admissions</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/faculty">Faculty</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/faculty">Faculty</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/students">Students</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/students">Students</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/gallery">Gallery</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/gallery">Gallery</NavLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact-us">Contact Us</Link>
+            <NavLink className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} to="/contact-us">Contact Us</NavLink>
           </li>
         </ul>
       </div>

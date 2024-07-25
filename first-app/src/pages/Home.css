@@ -1,0 +1,38 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 20px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.description {
+  text-align: left;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.highlights {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.highlight-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.quick-links a {
+  margin: 30px 10px;
+}
+
