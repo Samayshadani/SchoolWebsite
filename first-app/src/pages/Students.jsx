@@ -9,7 +9,7 @@ const Students = () => {
 
       <div className="row mb-5">
         <div className="col-md-6">
-          <img src="/src/assets/images/extra.jpg" alt="Extracurricular Activities" className="img-fluid" />
+          <img src="extra.jpg" alt="Extracurricular Activities" className="img-fluid" />
         </div>
         <div className="col-md-6">
           <h3>Extracurricular Activities</h3>
@@ -21,7 +21,7 @@ const Students = () => {
 
       <div className="row mb-5">
         <div className="col-md-6">
-          <img src="/src/assets/images/achievements.jpg" alt="Achievements and Accolades" className="img-fluid" />
+          <img src="achievements.jpg" alt="Achievements and Accolades" className="img-fluid" />
         </div>
         <div className="col-md-6">
           <h3>Achievements and Accolades</h3>
@@ -33,7 +33,7 @@ const Students = () => {
 
       <div className="row mb-5">
         <div className="col-md-6">
-          <img src="/src/assets/images/leader.webp" alt="Student Council" className="img-fluid" />
+          <img src="leader.webp" alt="Student Council" className="img-fluid" />
         </div>
         <div className="col-md-6">
           <h3>Student Council and Leadership Opportunities</h3>

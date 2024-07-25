@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="container mt-5 mb-5">
       <div className="row mb-5">
         <div className="col-md-6">
-          <img src="/src/assets/images/classroom.jpeg" alt="About Us" className="img-fluid" />
+          <img src="classroom.jpeg" alt="About Us" className="img-fluid" />
         </div>
         <div className="col-md-6">
           <h2>About Us</h2>
@@ -25,7 +25,7 @@ const AboutUs = () => {
       </div>
       <div className="row mb-5">
         <div className="col-md-4">
-          <img src="/src/assets/images/principal.webp" alt="Principal" className="img-fluid" />
+          <img src="principal.webp" alt="Principal" className="img-fluid" />
         </div>
         <div className="col-md-8">
           <h3>Message from the Principal</h3>
@@ -40,7 +40,7 @@ const AboutUs = () => {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4">
-            <img src="/src/assets/images/mission.png" className="card-img-top" alt="Card 1" />
+            <img src="mission.png" className="card-img-top" alt="Card 1" />
             <div className="card-body">
               <h5 className="card-title">Our Mission</h5>
               <p className="card-text">To provide quality education and foster lifelong learning.</p>
@@ -49,7 +49,7 @@ const AboutUs = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4">
-            <img src="/src/assets/images/vision.jpg" className="card-img-top" alt="Card 2" />
+            <img src="vision.jpg" className="card-img-top" alt="Card 2" />
             <div className="card-body">
               <h5 className="card-title">Our Vision</h5>
               <p className="card-text">To be a leading educational institution known for excellence in teaching and learning.</p>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4">
-            <img src="/src/assets/images/values.png" className="card-img-top" alt="Card 3" />
+            <img src="values.png" className="card-img-top" alt="Card 3" />
             <div className="card-body">
               <h5 className="card-title">Our Values</h5>
               <p className="card-text">Integrity, respect, and a commitment to continuous improvement.</p>

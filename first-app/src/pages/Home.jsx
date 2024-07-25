@@ -9,7 +9,7 @@ const Home = () => {
       <header className="header text-center my-4">
         <div className="row align-items-center">
           <div className="col-md-6 order-md-2 text-center">
-            <img src="/src/assets/images/logo.png" alt="School Logo" className="logo img-fluid" />
+            <img src="logo.png" alt="School Logo" className="logo img-fluid" />
           </div>
           <div className="col-md-6 order-md-1">
             <h1>Springdale Public School</h1>
@@ -20,21 +20,21 @@ const Home = () => {
       </header>
       <Carousel className="carousel mb-4">
         <Carousel.Item>
-          <img src="/src/assets/images/sports_day.jpg" alt="Annual Sports Day" className="d-block w-100" />
+          <img src="sports_day.jpg" alt="Annual Sports Day" className="d-block w-100" />
           <Carousel.Caption>
             <h3>Annual Sports Day</h3>
             <p>Celebrating Excellence in Sports</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="/src/assets/images/science_exhibition.webp" alt="Science Exhibition" className="d-block w-100" />
+          <img src="science_exhibition.webp" alt="Science Exhibition" className="d-block w-100" />
           <Carousel.Caption>
             <h3>Science Exhibition</h3>
             <p>Showcasing Student Innovations</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="/src/assets/images/cultural_fest.jpg" alt="Cultural Fest" className="d-block w-100" />
+          <img src="cultural_fest.jpg" alt="Cultural Fest" className="d-block w-100" />
           <Carousel.Caption>
             <h3>Cultural Fest</h3>
             <p>Embracing Diversity and Creativity</p>
